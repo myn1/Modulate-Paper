@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0
+}
+
+body{
+background-color:rgb(253,255,249);
+}
+
+
+.canvas-wrapper {
+    position: relative;
+}
+
+.canvas-wrapper canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buttun{
+position: absolute;
+top: 5%;
+left: 3.5%;
+
+letter-spacing: 0.1em;
+font-size: 10px;
+line-height: 1.8;
+z-index: 2;
+color: #fafafa;
+}
+
+#time {
+  margin: 0 1em;
+  font-size: 11px;
+}
+
+#current, #duration {
+  padding: 0;
+  margin: .2em;
+  
+  
+}
